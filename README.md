@@ -10,4 +10,4 @@ So far I have learned what a URL is, how to work grithib, and how to program a p
 Link to your responses.txt file with a relative URL.
 https://github.com/alexandrialarsen/MART341-WebDesign/blob/main/responses.txt
 Link to your screenshot with a relative URL.
-
+https://github.com/alexandrialarsen/MART341-WebDesign/blob/main/screenshot.png
