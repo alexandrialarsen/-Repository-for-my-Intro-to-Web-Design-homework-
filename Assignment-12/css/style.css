@@ -1,0 +1,171 @@
+#header{
+    background-image: url("../images/bwocean.jpg");
+}
+
+h1{
+    color: ##44e1e5;
+    font-family: Merriweather;
+    font-size: 100px;
+    letter-spacing: 0.3em;
+}
+
+#title:hover{
+    letter-spacing: 1em;
+    font-weight: 700;
+    color: #44e1e5;
+}
+
+.titleBorder{
+    height: 200px;
+    background-color: black;
+    color: black;
+}
+
+.titleBorder:hover{
+    background-color: #44e1e5;
+    color: #333;
+    text-indent: 5em;
+    font-family: RubikPixels;
+}
+
+.subtitle{
+    padding-top: 75px;
+    font-size: 20px;
+    margin: auto;
+}
+
+.content-paragraph{
+    margin: auto;
+    color: #333;
+    font-size: 20px;
+    line-height: 26px;
+    max-width: 640px;
+    font-family: Merriweather;
+}
+
+.content-paragraph:first-line{
+    font-size: 20px;
+    font-family: Merriweather;
+    line-height: 40px;
+}
+
+.poem-link{
+    text-decoration: none;
+    color: #44e1e5;
+}
+.poem-link:hover{
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+.poem-link:visited{
+    color: #b44145;
+}
+
+.image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    padding-left: 300px;
+}
+
+img {
+    border: 20px solid #44e1e5;
+}
+
+#first-bar {
+  margin-top: 4em;
+  padding: 1em;
+}
+
+/* menu */
+header {
+  position: fixed;
+  background-color: black;
+  width: 99%;
+  height: 4em;
+  top: 0px;
+  font: Merriweather;
+  text-align: right;
+}
+
+/* set the layout of the menu */
+.menu-item{
+  display: inline-block;
+  margin: 1em .2em;
+  background-color: #333;
+  padding: 0.5em 1em;
+  border-radius: 1em;
+  min-width: 6em;
+  text-align: center;
+}
+
+.menu-item:hover {
+  background-color: #44e1e5;
+  color: #333;
+}
+
+
+/* styling my links */
+.menu-item a {
+  color: white;
+  text-decoration: none;
+}
+
+
+/* dropdown */
+.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  margin: 0.5em 0 0 -1em;
+  color: #000;
+  background-color: #fff;
+  z-index: 1;
+  border-radius: 0em 0em 1em 1em;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content a{
+  color: #000;
+}
+
+/* styling dropdown item display */
+.dropdown-item {
+  display: block;
+  text-align: left;
+  margin: 0;
+  padding: 0.5em 1em 0.5em 1em;
+  min-width: 6em;
+}
+
+.dropdown-item:hover, .dropdown-item:hover a {
+  color: white;
+  background-color: #44e1e5;
+}
+
+#foundation:hover{
+  border-radius: 0em 0em 1em 1em;
+}
+
+.dropdown:hover {
+  border-radius: 1em 1em 0em 0em;
+}
+
+/* adding in the site name stying */
+.site-name {
+  color: #44e1e5;
+  float: left;
+  min-wdith: 6em;
+  padding: 0.5 1em;
+  letter-spacing: 0.3em;
+  dont-weight: bold;
+  margin: 1em .2em;
+}
